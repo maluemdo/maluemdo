@@ -6,7 +6,7 @@ layout: default
 
 <img src="images/clasificacion.png" alt="clasificacion"/>
 
-# PRÓXIMOS PARTIDOS
+# PRÓX.PARTIDOS
 
 <img src="images/proxpartido1.png" alt="proxpartido1"/>
 <img src="images/proxpartido2.png" alt="proxpartido2"/>
