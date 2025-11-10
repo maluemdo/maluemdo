@@ -7,10 +7,11 @@ layout: default
 <img src="images/clasificacion.png" alt="clasificacion"/>
 
 # PRÓX.PARTIDOS
-
-<img src="images/proxjornada6.png" alt="proxjornada6"/>
-<img src="images/proxjornada7.png" alt="proxjornada7"/>
-<img src="images/proxjornada8.png" alt="proxjornada7"/>
+<div style="text-align: center;">
+  <img src="images/proxjornada6.png" alt="proxjornada6"/>
+  <img src="images/proxjornada7.png" alt="proxjornada7"/>
+  <img src="images/proxjornada8.png" alt="proxjornada7"/>
+</div>
 
 # RESULTADOS
 
