@@ -14,6 +14,7 @@ layout: default
 
 # RESULTADOS
 
+<img src="images/jornada5.png" alt="jornada5"/>
 <img src="images/jornada4.png" alt="jornada4"/>
 <img src="images/jornada3.png" alt="jornada3"/>
 <img src="images/jornada2.png" alt="jornada2"/>
