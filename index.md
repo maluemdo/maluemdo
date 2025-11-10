@@ -8,9 +8,9 @@ layout: default
 
 # PRÓX.PARTIDOS
 
-<img src="images/proxpartido1.png" alt="proxpartido1"/>
-<img src="images/proxpartido2.png" alt="proxpartido2"/>
-<img src="images/proxpartido3.png" alt="proxpartido3"/>
+<img src="images/proxjornada6.png" alt="proxjornada6"/>
+<img src="images/proxjornada7.png" alt="proxjornada7"/>
+<img src="images/proxjornada8.png" alt="proxjornada7"/>
 
 # RESULTADOS
 
