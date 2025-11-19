@@ -19,7 +19,7 @@ layout: default
 # RESULTADOS
 
 <div style="text-align: center;">
-  <img src="images/jornada6.png" alt="jornada6"/>  
+  <img src="images/jornada6.png" alt="jornada6"/>
   <img src="images/jornada5.png" alt="jornada5"/>
   <img src="images/jornada4.png" alt="jornada4"/>
   <img src="images/jornada3.png" alt="jornada3"/>
