@@ -14,7 +14,7 @@ layout: default
   <!--img src="images/proxjornada7.png" alt="proxjornada7"/-->
   <img src="images/proxjornada8.png" alt="proxjornada8"/>
   <img src="images/proxjornada9.png" alt="proxjornada9"/>
-  <!--img src="images/proxjornada10.png" alt="proxjornada10"/-->
+  <img src="images/proxjornada10.png" alt="proxjornada10"/>
   <!--img src="images/proxjornada11.png" alt="proxjornada11"/-->
   <!--img src="images/proxjornada12.png" alt="proxjornada12"/-->
   <!--img src="images/proxjornada13.png" alt="proxjornada13"/-->
@@ -47,7 +47,7 @@ layout: default
   <!--img src="images/jornada10.png" alt="jornada10"/-->
   <!--img src="images/jornada9.png" alt="jornada9"/-->
   <!--img src="images/jornada8.png" alt="jornada8"/-->
-  <!--img src="images/jornada7.png" alt="jornada7"/-->
+  <img src="images/jornada7.png" alt="jornada7"/>
   <img src="images/jornada6.png" alt="jornada6"/>
   <img src="images/jornada5.png" alt="jornada5"/>
   <img src="images/jornada4.png" alt="jornada4"/>
