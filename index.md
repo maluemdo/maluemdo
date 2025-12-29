@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Equipaciones 3ª División Futbol](./equipaciones.html).
+
 # CLASIFICACIÓN
 
 <div style="text-align: center;">
@@ -9,6 +11,7 @@ layout: default
 </div>
 
 # PRÓX.PARTIDOS
+[Equipaciones 3ª División Futbol](./equipaciones.html).
 
 <div style="text-align: center;" data-proofer-ignore>
   <img src="images/proxjornada1.png" alt="proxjornada1" onerror="this.style.display='none'"/>
@@ -34,8 +37,6 @@ layout: default
   <img src="images/proxjornada21.png" alt="proxjornada21" onerror="this.style.display='none'"/>
   <img src="images/proxjornada22.png" alt="proxjornada22" onerror="this.style.display='none'"/>
 </div>
-
-[Equipaciones 3ª División Futbol](./equipaciones.html).
 
 
 # RESULTADOS
