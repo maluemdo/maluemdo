@@ -36,12 +36,16 @@ layout: default
   <img src="images/proxjornada20.png" alt="proxjornada20" onerror="this.style.display='none'"/>
   <img src="images/proxjornada21.png" alt="proxjornada21" onerror="this.style.display='none'"/>
   <img src="images/proxjornada22.png" alt="proxjornada22" onerror="this.style.display='none'"/>
+  <img src="images/proxjornada23.png" alt="proxjornada23" onerror="this.style.display='none'"/>
+  <img src="images/proxjornada24.png" alt="proxjornada24" onerror="this.style.display='none'"/>
 </div>
 
 
 # RESULTADOS
 
 <div style="text-align: center;" data-proofer-ignore>
+  <img src="images/jornada24.png" alt="jornada24" onerror="this.style.display='none'"/>
+  <img src="images/jornada23.png" alt="jornada23" onerror="this.style.display='none'"/>
   <img src="images/jornada22.png" alt="jornada22" onerror="this.style.display='none'"/>
   <img src="images/jornada21.png" alt="jornada21" onerror="this.style.display='none'"/>
   <img src="images/jornada20.png" alt="jornada20" onerror="this.style.display='none'"/>
