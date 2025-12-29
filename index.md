@@ -37,7 +37,7 @@ layout: default
 
 # RESULTADOS
 
-<div style="text-align: center;">
+<div style="text-align: center;" data-proofer-ignore>
   <!--img src="images/jornada22.png" alt="jornada22"/-->
   <!--img src="images/jornada21.png" alt="jornada21"/-->
   <!--img src="images/jornada20.png" alt="jornada20"/-->
@@ -50,7 +50,7 @@ layout: default
   <!--img src="images/jornada13.png" alt="jornada13"/-->
   <!--img src="images/jornada12.png" alt="jornada12"/-->
   <!--img src="images/jornada11.png" alt="jornada11"/-->
-  <img src="images/jornada10.png" alt="jornada10" onerror="this.style.display='none'" data-proofer-ignore/>
+  <img src="images/jornada10.png" alt="jornada10" onerror="this.style.display='none'"/>
   <img src="images/jornada9.png" alt="jornada9"/>
   <img src="images/jornada8.png" alt="jornada8"/>
   <img src="images/jornada7.png" alt="jornada7"/>
