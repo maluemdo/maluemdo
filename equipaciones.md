@@ -5,7 +5,9 @@ layout: default
 # Equipaciones 3ª División Futbol 7
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="images/equipaciones.png" alt="equipaciones" onerror="this.style.display='none'"/>
+  <img src="images/equipaciones1.png" alt="equipaciones1" onerror="this.style.display='none'"/>
+  <img src="images/equipaciones2.png" alt="equipaciones2" onerror="this.style.display='none'"/>
+  <img src="images/equipaciones3.png" alt="equipaciones3" onerror="this.style.display='none'"/>
 </div>
 
 
