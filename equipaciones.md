@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Equipaciones 3ª División Futbol 7
+# Equipaciones 3ª División Futbol 7
 
 _yay_
 
