@@ -50,7 +50,7 @@ layout: default
   <!--img src="images/jornada13.png" alt="jornada13"/-->
   <!--img src="images/jornada12.png" alt="jornada12"/-->
   <!--img src="images/jornada11.png" alt="jornada11"/-->
-  <img src="images/jornada10.png" alt="" onerror="this.style.display='none'"/>
+  <img src="images/jornada10.png" alt=" " onerror="this.style.display='none'"/>
   <img src="images/jornada9.png" alt="jornada9"/>
   <img src="images/jornada8.png" alt="jornada8"/>
   <img src="images/jornada7.png" alt="jornada7"/>
