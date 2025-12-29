@@ -5,17 +5,13 @@ layout: default
 
 # CLASIFICACIÓN
 
-[Equipaciones 3ª División Futbol](./equipaciones.html).
-
 <div style="text-align: center;">
   <img src="images/clasificacion.png" alt="clasificacion"/>
 </div>
 
-[Equipaciones 3ª División Futbol](./equipaciones.html).
+[Equipaciones 3ª División Futbol](./equipaciones.html)
 
 # PRÓX.PARTIDOS
-
-[Equipaciones 3ª División Futbol](./equipaciones.html).
 
 <div style="text-align: center;" data-proofer-ignore>
   <img src="images/proxjornada1.png" alt="proxjornada1" onerror="this.style.display='none'"/>
