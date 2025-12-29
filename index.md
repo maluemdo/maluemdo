@@ -34,6 +34,9 @@ layout: default
   <img src="images/proxjornada21.png" alt="proxjornada21" onerror="this.style.display='none'"/>
   <img src="images/proxjornada22.png" alt="proxjornada22" onerror="this.style.display='none'"/>
 </div>
+<div style="text-align: right;">
+[Equipaciones 3ª División Futbol](./equipaciones.html).
+</div>
 
 # RESULTADOS
 
