@@ -9,7 +9,7 @@ layout: default
   <img src="images/clasificacion.png" alt="clasificacion"/>
 </div>
 
-[Equipaciones 3ª División Futbol](./equipaciones.html)
+[Equipaciones 3ª División Futbol 7](./equipaciones.html)
 
 # PRÓX.PARTIDOS
 
