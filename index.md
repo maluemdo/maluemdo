@@ -15,6 +15,7 @@ layout: default
     </td>
   </tr>
 </table>
+<br>
 
 # CLASIFICACIÓN
 
