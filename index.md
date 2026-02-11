@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<select onchange="window.location.href=this.value">  
-  <option value="./index.html">2025-2026</option>
-<!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
-</select>
-
 # CLASIFICACIÓN
 
 <div style="text-align: center;" data-proofer-ignore>
