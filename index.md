@@ -3,14 +3,14 @@ layout: default
 ---
 
 <table style=" border: inset 0pt">
-  <tr  class="sinBorde">
-    <td style="text-align: left; border: inset 0pt">
+  <tr  style="text-align: left;">
+    <td style=" border: inset 0pt">
       <select onchange="window.location.href=this.value">  
         <option value="./index.html">2025-2026</option>
         <!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
       </select>
     </td>
-    <td style="text-align: left; border: inset 0pt">
+    <td style=" border: inset 0pt">
       <a href="./Temporadas/2025-2026/equipaciones_2025-2026.html">Equipaciones 3ª División Futbol 7</a>
     </td>
   </tr>
