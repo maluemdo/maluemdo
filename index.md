@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+<style>
+  table {
+    border-collapse: collapse;
+    border: none;
+  }
+  th, td {
+    border: none;
+    padding: 10px; /* Opcional: añade espacio */
+  }
+</style>
+
 <table border="0">
   <tr>
     <td>
