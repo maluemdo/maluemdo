@@ -2,14 +2,14 @@
 layout: default
 ---
 <table border="0">
-  <tr>
-    <td border="0">
+  <tr  class="sinBorde">
+    <td style=" border: inset 0pt" colspan="23">
       <select onchange="window.location.href=this.value">  
         <option value="./index.html">2025-2026</option>
         <!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
       </select>
     </td>
-    <td border="0">
+    <td style=" border: inset 0pt" colspan="23">
       <a href="./Temporadas/2025-2026/equipaciones_2025-2026.html">Equipaciones 3ª División Futbol 7</a>
     </td>
   </tr>
