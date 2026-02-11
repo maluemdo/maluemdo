@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-.sinBorde td {border: 0; border-bottom:1px solid #000}
 
-<table border="0">
+<table>
   <tr  class="sinBorde">
     <td style=" border: inset 0pt">
       <select onchange="window.location.href=this.value">  
