@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Equipaciones 3ª División Futbol 7 2025-2026
+## Equipaciones 3ª Div Futbol 7 2025-2026
 
 <div style="text-align: center;" data-proofer-ignore>
   <img src="../../images/2025-2026/equipaciones1.png" alt="equipaciones1" onerror="this.style.display='none'"/>
