@@ -13,7 +13,7 @@ layout: default
   <img src="images/2025-2026/clasificacion.png" alt="clasificacion"/>
 </div>
 
-[Equipaciones 3ª División Futbol 7](./equipaciones.html)
+[Equipaciones 3ª División Futbol 7](./equipaciones_2025-2026.html)
 
 # PRÓX.PARTIDOS
 
