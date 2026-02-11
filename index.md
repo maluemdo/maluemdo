@@ -10,12 +10,13 @@ layout: default
       </select>
     </td>
     <td>
+      [Equipaciones 3ª División Futbol 7](./Temporadas/2025-2026/equipaciones_2025-2026.html)
     </td>
   </tr>
 </table>
 
 # CLASIFICACIÓN
-[Equipaciones 3ª División Futbol 7](./Temporadas/2025-2026/equipaciones_2025-2026.html)
+
 <div style="text-align: center;" data-proofer-ignore>
   <img src="images/2025-2026/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'"/>
 </div>
