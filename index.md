@@ -13,7 +13,6 @@ layout: default
   <img src="images/2025-2026/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'"/>
 </div>
 
-
 # PRÓX.PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
