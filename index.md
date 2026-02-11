@@ -22,6 +22,7 @@ layout: default
 <div style="text-align: center;" data-proofer-ignore>
   <img src="images/2025-2026/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'"/>
 </div>
+<a href="./Temporadas/2025-2026/goleadores_2025-2026.html">Goleadores</a>
 
 # PRÓX.PARTIDOS
 
