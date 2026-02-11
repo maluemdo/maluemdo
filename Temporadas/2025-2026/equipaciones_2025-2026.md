@@ -10,4 +10,4 @@ layout: default
   <img src="images/2025-2026/equipaciones3.png" alt="equipaciones3" onerror="this.style.display='none'"/>
 </div>
 
-<a href="index.html">Atras</a>
+<a href="./index.html">Atras</a>
