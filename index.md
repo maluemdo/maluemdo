@@ -11,7 +11,7 @@ layout: default
       </select>
     </td>
     <td style="text-align: left; border: inset 0pt">
-      <a href="./Temporadas/2025-2026/equipaciones_2025-2026.html">Equipaciones 3ª División Futbol 7 2025-2026</a>
+      <a href="./Temporadas/2025-2026/equipaciones_2025-2026.html">Equipaciones 3ª Div Futbol 7 2025-2026</a>
     </td>
   </tr>
 </table>
