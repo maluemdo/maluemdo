@@ -1,26 +1,15 @@
 ---
 layout: default
 ---
-<style>
-  table {
-    border-collapse: collapse;
-    border: none;
-  }
-  th, td {
-    border: none;
-    padding: 10px; /* Opcional: añade espacio */
-  }
-</style>
-
 <table border="0">
   <tr>
-    <td>
+    <td border="0">
       <select onchange="window.location.href=this.value">  
         <option value="./index.html">2025-2026</option>
         <!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
       </select>
     </td>
-    <td>
+    <td border="0">
       <a href="./Temporadas/2025-2026/equipaciones_2025-2026.html">Equipaciones 3ª División Futbol 7</a>
     </td>
   </tr>
