@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<table>
+<table style=" border: inset 0pt">
   <tr  class="sinBorde">
     <td style=" border: inset 0pt">
       <select onchange="window.location.href=this.value">  
