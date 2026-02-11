@@ -10,7 +10,7 @@ layout: default
       </select>
     </td>
     <td>
-      [Equipaciones 3ª División Futbol 7](./Temporadas/2025-2026/equipaciones_2025-2026.html)
+      [Equipaciones 3ª División Futbol 7](./Temporadas/2025-2026/equipaciones_2025-2026.html).
     </td>
   </tr>
 </table>
