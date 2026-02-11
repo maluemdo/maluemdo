@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
-<select onchange="window.location.href=this.value">
-  <option value="./index.html">2025-2026</option>
-<!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
-</select>
+<table border="0">
+  <tr>
+    <td>
+      <select onchange="window.location.href=this.value">  
+        <option value="./index.html">2025-2026</option>
+        <!--<option value="./Temporadas/2025-2026/2025-2026.html">2025-2026</option>-->
+      </select>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
 
 # CLASIFICACIÓN
 [Equipaciones 3ª División Futbol 7](./Temporadas/2025-2026/equipaciones_2025-2026.html)
