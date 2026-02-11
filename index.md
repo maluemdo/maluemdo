@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<select onchange="window.location.href=this.value">
+  <option value="./index.html">2025-2026</option>
+<!--<option value="./equipaciones.html">Equipaciones</option>-->
+</select>
 
 # CLASIFICACIÓN
 
