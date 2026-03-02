@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: default
 ---
 
 ## Equipaciones 3ª Futbol 7 2025-2026
