@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 
 ## Goleadores 3ª Futbol 7 2025-2026
 
