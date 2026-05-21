@@ -6,11 +6,11 @@ layout: default
   <tr style="text-align: left; border: inset 0pt">
     <td style="text-align: left; border: inset 0pt">
       <select onchange="window.location.href=this.value">  
-        <option value="./index.html">2025-2026 3ª Div</option>
-        <option value="./index.html">2025-2026 1ª Div</option>
-        <option value="./index.html">2025-2026 2ª Div</option>
-        <option value="./index.html">2025-2026 4ª Div</option>
-        <option value="./index.html">2025-2026 Copa</option>
+        <option value="./index.html">25-26 3ª Div</option>
+        <option value="./index.html">25-26 1ª Div</option>
+        <option value="./index.html">25-26 2ª Div</option>
+        <option value="./index.html">25-26 4ª Div</option>
+        <option value="./index.html">25-26 Copa</option>
       </select>
     </td>
     <td style="text-align: left; border: inset 0pt">
