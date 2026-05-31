@@ -20,7 +20,6 @@ layout: default
 # PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/2025-2026/Copa/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'"/>
   <img src="../../../images/2025-2026/Copa/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
   <img src="../../../images/2025-2026/Copa/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
 </div>
@@ -31,4 +30,5 @@ layout: default
 <div style="text-align: center;" data-proofer-ignore>
   <img src="../../../images/2025-2026/Copa/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'"/>
   <img src="../../../images/2025-2026/Copa/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'"/>
+  <img src="../../../images/2025-2026/Copa/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'"/>
 </div>
