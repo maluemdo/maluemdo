@@ -9,4 +9,4 @@ layout: default
   <img src="../../../images/2025-2026/Div_3/goleadores2.png" alt="goleadores2" onerror="this.style.display='none'"/>
   <img src="../../../images/2025-2026/Div_3/goleadores3.png" alt="goleadores3" onerror="this.style.display='none'"/>
 </div>
-<a href="../../../">Atras</a>
+<a href="../../../Temporadas/2025-2026/Div_3/index_Div_3.html">Atras</a>
