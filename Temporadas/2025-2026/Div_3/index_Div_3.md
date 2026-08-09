@@ -5,7 +5,8 @@ layout: default
 <table style=" border: inset 0pt">
   <tr style="text-align: left; border: inset 0pt">
     <td style="text-align: left; border: inset 0pt">
-      <select onchange="window.location.href=this.value">  
+      <select onchange="window.location.href=this.value">
+        <option value="../../../Temporadas/2025-2026/Div_3/index_Div_3.html">25-26 3ª Div</option>
         <option value="../../../Temporadas/2025-2026/Div_1/index_Div_1.html">25-26 1ª Div</option>
         <option value="../../../Temporadas/2025-2026/Div_2/index_Div_2.html">25-26 2ª Div</option>
         <option value="../../../Temporadas/2025-2026/Div_4/index_Div_4.html">25-26 4ª Div</option>
