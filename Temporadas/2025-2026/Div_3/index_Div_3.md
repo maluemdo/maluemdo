@@ -8,7 +8,7 @@ active_season: "25-26_div3"
   {% if s.id == page.active_season %}
     {% assign temporada = s.temporada %}
     {% assign division = s.division %}
-    {% assign temp_corto = s.temp_corto %
+    {% assign temp_corto = s.temp_corto %}
   {% endif %}
 {% endfor %}
 
