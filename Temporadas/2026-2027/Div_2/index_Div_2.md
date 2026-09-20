@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<table style=" border: inset 0pt">
+<table style="border: inset 0pt; width: 100%;">
   <tr style="text-align: left; border: inset 0pt">
-    <td style="text-align: left; border: inset 0pt">
+    <td style="text-align: left; border: inset 0pt; width: 50%;">
+        <!-- Aquí se pintará tu menú -->
         <div id="contenedor-desplegable"></div>
     </td>
-    <td style="text-align: left; border: inset 0pt">
-      <a href="../../../Temporadas/2026-2027/Div_2/equipaciones_2026-2027.html">Equipaciones 3ª Div Futbol 7 25-26</a>
+    <td style="text-align: right; border: inset 0pt; width: 50%;">
+      <a href="../../../Temporadas/2026-2027/Div_2/equipaciones_2026-2027.html">Equipaciones 2ª Div Futbol 7 26-27</a>
     </td>
   </tr>
 </table>
@@ -85,44 +86,48 @@ layout: default
   <img src="../../../images/2026-2027/Div_2/jornada1.png" alt="jornada1" onerror="this.style.display='none'"/>
 </div>
 
-<script>
-// CONFIGURACIÓN EXACTA PARA TU WEB EN GITHUB PAGES
-const nombreRepositorio = "maluemdo"; 
-const temporadas =; 
+<!-- SCRIPT PROTEGIDO PARA JEKYLL Y GITHUB PAGES -->
+<script type="text/javascript">
+(function() {
+    const nombreRepositorio = "maluemdo"; 
+    const temporadas =; 
 
-function generarMenuCompleto() {
-    const contenedor = document.getElementById('contenedor-desplegable');
-    if (!contenedor) return;
+    function generarMenuCompleto() {
+        const contenedor = document.getElementById('contenedor-desplegable');
+        if (!contenedor) return;
 
-    let html = `<select onchange="if(this.value) window.location.href=this.value;">`;
-    html += `<option value="">-- Selecciona Temporada --</option>`;
+        let html = '<select onchange="if(this.value) window.location.href=this.value;" style="padding: 6px; font-size: 14px; max-width: 100%;">';
+        html += '<option value="">-- Selecciona Temporada --</option>';
 
-    // Ruta absoluta adaptada a la estructura de tu GitHub Pages
-    const baseRaiz = `/${nombreRepositorio}/Temporadas/`;
+        const baseRaiz = '/' + nombreRepositorio + '/Temporadas/';
 
-    temporadas.forEach(anio => {
-        const tempEtiqueta = `${String(anio).slice(-2)}-${String(anio + 1).slice(-2)}`;
-        const tempCarpeta = `${anio}-${anio + 1}`;
+        temporadas.forEach(function(anio) {
+            const labelAnio = String(anio).slice(-2) + '-' + String(anio + 1).slice(-2);
+            const carpetaAnio = anio + '-' + (anio + 1);
 
-        // Generar las 4 Divisiones de cada año
-        for (let div = 1; div <= 4; div++) {
-            const ruta = `${baseRaiz}${tempCarpeta}/Div_${div}/index_Div_${div}.html`;
-            const texto = `${tempEtiqueta} ${div}ª Div`;
-            html += `<option value="${ruta}">${texto}</option>`;
-        }
+            // Generar Divisiones (1 a 4)
+            for (let div = 1; div <= 4; div++) {
+                const ruta = baseRaiz + carpetaAnio + '/Div_' + div + '/index_Div_' + div + '.html';
+                const texto = labelAnio + ' ' + div + 'ª Div';
+                html += '<option value="' + ruta + '">' + texto + '</option>';
+            }
 
-        // Generar la Copa de cada año
-        const rutaCopa = `${baseRaiz}${tempCarpeta}/Copa/index_Copa.html`;
-        const textoCopa = `${tempEtiqueta} Copa`;
-        html += `<option value="${rutaCopa}">${textoCopa}</option>`;
-    });
+            // Generar Copa
+            const rutaCopa = baseRaiz + carpetaAnio + '/Copa/index_Copa.html';
+            const textoCopa = labelAnio + ' Copa';
+            html += '<option value="' + rutaCopa + '">' + textoCopa + '</option>';
+        });
 
-    html += `</select>`;
-    contenedor.innerHTML = html;
-}
+        html += '</select>';
+        contenedor.innerHTML = html;
+    }
 
-// Forzamos a que se ejecute solo cuando el HTML esté completamente listo
-document.addEventListener("DOMContentLoaded", function() {
-    generarMenuCompleto();
-});
+    // Ejecución segura pase lo que pase con la carga
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        generarMenuCompleto();
+    } else {
+        document.addEventListener('DOMContentLoaded', generarMenuCompleto);
+    }
+})();
 </script>
+
