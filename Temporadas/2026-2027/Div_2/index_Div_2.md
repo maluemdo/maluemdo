@@ -5,20 +5,43 @@ layout: default
 <table style=" border: inset 0pt">
   <tr style="text-align: left; border: inset 0pt">
     <td style="text-align: left; border: inset 0pt">
-      <select onchange="window.location.href=this.value">
-        <option value="../../../Temporadas/2026-2027/Div_2/index_Div_2.html">26-27 2ª Div</option>
-        <option value="../../../Temporadas/2025-2026/Div_1/index_Div_1.html">25-26 1ª Div</option>
-        <option value="../../../Temporadas/2025-2026/Div_2/index_Div_2.html">25-26 2ª Div</option>
-        <option value="../../../Temporadas/2025-2026/Div_3/index_Div_3.html">25-26 3ª Div</option>
-        <option value="../../../Temporadas/2025-2026/Div_4/index_Div_4.html">25-26 4ª Div</option>
-        <option value="../../../Temporadas/2025-2026/Copa/index_Copa.html">25-26 Copa</option>
-      </select>
+        <div id="contenedor-desplegable"></div>
     </td>
     <td style="text-align: left; border: inset 0pt">
       <a href="../../../Temporadas/2026-2027/Div_2/equipaciones_2026-2027.html">Equipaciones 3ª Div Futbol 7 25-26</a>
     </td>
   </tr>
 </table>
+
+  <script>
+  const temporadas =; 
+  
+  function generarMenuCompleto() {
+      let html = `<select onchange="if(this.value) window.location.href=this.value;">`;
+      html += `<option value="">-- Selecciona Temporada --</option>`;
+  
+      temporadas.forEach(anio => {
+          const tempEtiqueta = `${String(anio).slice(-2)}-${String(anio + 1).slice(-2)}`;
+          const tempCarpeta = `${anio}-${anio + 1}`;
+  
+          for (let div = 1; div <= 4; div++) {
+              const ruta = `../../../Temporadas/${tempCarpeta}/Div_${div}/index_Div_${div}.html`;
+              const texto = `${tempEtiqueta} ${div}ª Div`;
+              html += `<option value="${ruta}">${texto}</option>`;
+          }
+  
+          const rutaCopa = `../../../Temporadas/${tempCarpeta}/Copa/index_Copa.html`;
+          const textoCopa = `${tempEtiqueta} Copa`;
+          html += `<option value="${rutaCopa}">${textoCopa}</option>`;
+      });
+  
+      html += `</select>`;
+      document.getElementById('contenedor-desplegable').innerHTML = html;
+  }
+  
+  // Esto se encarga de ejecutar el código e inyectar el menú en el <div> de arriba
+  generarMenuCompleto();
+  </script>
 <br>
 
 # CLASIFICACIÓN
