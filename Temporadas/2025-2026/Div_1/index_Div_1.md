@@ -7,7 +7,10 @@ layout: default
     <td style="text-align: left; border: inset 0pt">
       <select onchange="window.location.href=this.value">
         {% for option in site.data.seasons %}
-          <option value="{{ option.url }}">{{ option.name }}</option>
+          {% assign clean_url = option.url | relative_url %}
+          <option value="{{ clean_url }}" {% if page.url == option.url or page.url contains option.url %}selected{% endif %}>
+            {{ option.name }}
+          </option>
         {% endfor %}
       </select>
     </td>
