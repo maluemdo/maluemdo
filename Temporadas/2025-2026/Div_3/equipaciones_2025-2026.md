@@ -13,7 +13,7 @@ active_season: "25-26_div3"
   {% endif %}
 {% endfor %}
 
-## Equipaciones {{ div_texto }} Futbol 7 {{ temporada }}
+## Equipaciones {{ div_texto }} Futbol 7 {{ temp_corto }}
 
 <div style="text-align: center;" data-proofer-ignore>
   <img src="../../../images/{{ temporada }}/{{ division }}/equipaciones1.png" alt="equipaciones1" onerror="this.style.display='none'"/>
