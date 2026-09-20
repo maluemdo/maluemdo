@@ -15,7 +15,7 @@ active_season: "26-27_div2"
       </select>
     </td>
     <td style="text-align: left; border: inset 0pt">
-      <a href="../../../Temporadas/2026-2027/Div_2/equipaciones_2026-2027.html">Equipaciones 2ª Div Futbol 7 27-27</a>
+      <a href="../../../Temporadas/2026-2027/Div_2/equipaciones_2026-2027.html">Equipaciones 2ª Div Futbol 7 26-27</a>
     </td>
   </tr>
 </table>
