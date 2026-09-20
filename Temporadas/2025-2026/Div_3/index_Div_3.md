@@ -9,6 +9,7 @@ active_season: "25-26_div3"
     {% assign temporada = s.temporada %}
     {% assign division = s.division %}
     {% assign temp_corto = s.temp_corto %}
+    {% assign div_texto = s.div_texto%}
   {% endif %}
 {% endfor %}
 
@@ -24,7 +25,7 @@ active_season: "25-26_div3"
       </select>
     </td>
     <td style="text-align: left; border: inset 0pt">
-      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones 3ª Div Futbol 7 {{ temp_corto }}</a>
+      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones {{ div_texto }} Futbol 7 {{ temp_corto }}</a>
     </td>
   </tr>
 </table>
