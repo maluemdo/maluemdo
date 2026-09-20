@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.nombre_division }} - {{ page.temporada }}</title>
+</head>
+<body>
+
+    <!-- Menú desplegable y enlaces superiores -->
+    <table style="border: inset 0pt">
+      <tr style="text-align: left; border: inset 0pt">
+        <td style="text-align: left; border: inset 0pt">
+          <select onchange="window.location.href=this.value">
+            <option value="">Cambiar de categoría...</option>
+            {% for item in site.data.temporadas %}
+              <!-- Esto marca automáticamente como seleccionada la opción en la que te encuentras -->
+              <option value="{{ item.url }}" {% if item.temporada == page.temporada and item.division == page.division %}selected{% endif %}>
+                {{ item.nombre }}
+              </option>
+            {% endfor %}
+          </select>
+        </td>
+        <td style="text-align: left; border: inset 0pt">
+          <a href="../../../Temporadas/{{ page.temporada }}/{{ page.division }}/equipaciones_{{ page.temporada }}.html">Equipaciones</a>
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <!-- CLASIFICACIÓN -->
+    <h1>CLASIFICACIÓN</h1>
+    <div style="text-align: center;" data-proofer-ignore>
+      <img src="../../../images/{{ page.temporada }}/{{ page.division }}/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'"/>
+    </div>
+    <a href="../../../Temporadas/{{ page.temporada }}/{{ page.division }}/goleadores_{{ page.temporada }}.html">Goleadores</a>
+
+
+    <!-- PRÓX. PARTIDOS (Se generan de forma inversa o en orden según prefieras) -->
+    <h1>PRÓX. PARTIDOS</h1>
+    <div style="text-align: center;" data-proofer-ignore>
+      {% assign max_jornadas = page.total_jornadas | default: 26 %}
+      {% for i in (1..max_jornadas) %}
+        <img src="../../../images/{{ page.temporada }}/{{ page.division }}/proxjornada{{ i }}.png" alt="proxjornada{{ i }}" onerror="this.style.display='none'"/>
+      {% endfor %}
+    </div>
+
+
+    <!-- RESULTADOS (Bucle inverso: desde la última jornada hasta la 1) -->
+    <h1>RESULTADOS</h1>
+    <div style="text-align: center;" data-proofer-ignore>
+      {% assign max_jornadas = page.total_jornadas | default: 26 %}
+      {% for i in (1..max_jornadas) reversed %}
+        <img src="../../../images/{{ page.temporada }}/{{ page.division }}/jornada{{ i }}.png" alt="jornada{{ i }}" onerror="this.style.display='none'"/>
+      {% endfor %}
+    </div>
+
+</body>
+</html>
