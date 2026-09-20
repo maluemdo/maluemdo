@@ -86,8 +86,8 @@ layout: default
 </div>
 
 <script>
-// CONFIGURACIÓN PARA GITHUB PAGES
-const nombreRepositorio = "TU_REPOSITORIO"; // Pon el nombre de tu repositorio aquí (ej: "mi-liga"). Si usas dominio propio, déjalo vacío ""
+// CONFIGURACIÓN EXACTA PARA TU WEB EN GITHUB PAGES
+const nombreRepositorio = "maluemdo"; 
 const temporadas =; 
 
 function generarMenuCompleto() {
@@ -97,8 +97,8 @@ function generarMenuCompleto() {
     let html = `<select onchange="if(this.value) window.location.href=this.value;">`;
     html += `<option value="">-- Selecciona Temporada --</option>`;
 
-    // Ajustamos el inicio de la ruta según si estás en GitHub Pages o local
-    const baseRaiz = nombreRepositorio ? `/${nombreRepositorio}/Temporadas/` : `/Temporadas/`;
+    // Ruta absoluta adaptada a la estructura de tu GitHub Pages
+    const baseRaiz = `/${nombreRepositorio}/Temporadas/`;
 
     temporadas.forEach(anio => {
         const tempEtiqueta = `${String(anio).slice(-2)}-${String(anio + 1).slice(-2)}`;
@@ -121,6 +121,7 @@ function generarMenuCompleto() {
     contenedor.innerHTML = html;
 }
 
+// Forzamos a que se ejecute solo cuando el HTML esté completamente listo
 document.addEventListener("DOMContentLoaded", function() {
     generarMenuCompleto();
 });
