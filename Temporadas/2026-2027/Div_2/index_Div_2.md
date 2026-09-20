@@ -12,36 +12,6 @@ layout: default
     </td>
   </tr>
 </table>
-
-  <script>
-  const temporadas =; 
-  
-  function generarMenuCompleto() {
-      let html = `<select onchange="if(this.value) window.location.href=this.value;">`;
-      html += `<option value="">-- Selecciona Temporada --</option>`;
-  
-      temporadas.forEach(anio => {
-          const tempEtiqueta = `${String(anio).slice(-2)}-${String(anio + 1).slice(-2)}`;
-          const tempCarpeta = `${anio}-${anio + 1}`;
-  
-          for (let div = 1; div <= 4; div++) {
-              const ruta = `../../../Temporadas/${tempCarpeta}/Div_${div}/index_Div_${div}.html`;
-              const texto = `${tempEtiqueta} ${div}ª Div`;
-              html += `<option value="${ruta}">${texto}</option>`;
-          }
-  
-          const rutaCopa = `../../../Temporadas/${tempCarpeta}/Copa/index_Copa.html`;
-          const textoCopa = `${tempEtiqueta} Copa`;
-          html += `<option value="${rutaCopa}">${textoCopa}</option>`;
-      });
-  
-      html += `</select>`;
-      document.getElementById('contenedor-desplegable').innerHTML = html;
-  }
-  
-  // Esto se encarga de ejecutar el código e inyectar el menú en el <div> de arriba
-  generarMenuCompleto();
-  </script>
 <br>
 
 # CLASIFICACIÓN
@@ -114,3 +84,44 @@ layout: default
   <img src="../../../images/2026-2027/Div_2/jornada2.png" alt="jornada2" onerror="this.style.display='none'"/>
   <img src="../../../images/2026-2027/Div_2/jornada1.png" alt="jornada1" onerror="this.style.display='none'"/>
 </div>
+
+<script>
+// CONFIGURACIÓN PARA GITHUB PAGES
+const nombreRepositorio = "TU_REPOSITORIO"; // Pon el nombre de tu repositorio aquí (ej: "mi-liga"). Si usas dominio propio, déjalo vacío ""
+const temporadas =; 
+
+function generarMenuCompleto() {
+    const contenedor = document.getElementById('contenedor-desplegable');
+    if (!contenedor) return;
+
+    let html = `<select onchange="if(this.value) window.location.href=this.value;">`;
+    html += `<option value="">-- Selecciona Temporada --</option>`;
+
+    // Ajustamos el inicio de la ruta según si estás en GitHub Pages o local
+    const baseRaiz = nombreRepositorio ? `/${nombreRepositorio}/Temporadas/` : `/Temporadas/`;
+
+    temporadas.forEach(anio => {
+        const tempEtiqueta = `${String(anio).slice(-2)}-${String(anio + 1).slice(-2)}`;
+        const tempCarpeta = `${anio}-${anio + 1}`;
+
+        // Generar las 4 Divisiones de cada año
+        for (let div = 1; div <= 4; div++) {
+            const ruta = `${baseRaiz}${tempCarpeta}/Div_${div}/index_Div_${div}.html`;
+            const texto = `${tempEtiqueta} ${div}ª Div`;
+            html += `<option value="${ruta}">${texto}</option>`;
+        }
+
+        // Generar la Copa de cada año
+        const rutaCopa = `${baseRaiz}${tempCarpeta}/Copa/index_Copa.html`;
+        const textoCopa = `${tempEtiqueta} Copa`;
+        html += `<option value="${rutaCopa}">${textoCopa}</option>`;
+    });
+
+    html += `</select>`;
+    contenedor.innerHTML = html;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    generarMenuCompleto();
+});
+</script>
