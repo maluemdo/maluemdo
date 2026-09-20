@@ -3,6 +3,18 @@
 
 require "w3c_validators"
 
+SITE_INDEX = File.expand_path("../_site/index.html", __dir__)
+
+def ensure_site_built!
+  return if File.exist?(SITE_INDEX)
+
+  puts "_site/index.html not found; building the Jekyll site first..."
+  success = system("bundle", "exec", "jekyll", "build", "--destination", "_site")
+  return if success
+
+  abort("Failed to build the Jekyll site before HTML validation.")
+end
+
 def validator(file)
   extension = File.extname(file)
   if extension == ".html"
@@ -24,5 +36,6 @@ def validate(file)
   exit 1
 end
 
+ensure_site_built!
 validate "index.html"
 validate File.join "assets", "css", "style.css"
