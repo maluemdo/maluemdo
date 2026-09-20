@@ -24,7 +24,7 @@ active_season: "25-26_div3"
       </select>
     </td>
     <td style="text-align: left; border: inset 0pt">
-      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones 3ª Div Futbol 7 25-26</a>
+      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones 3ª Div Futbol 7 {{ temp_corto }}</a>
     </td>
   </tr>
 </table>
@@ -37,6 +37,36 @@ active_season: "25-26_div3"
 </div>
 <a href="../../../Temporadas/{{ temporada }}/{{ division }}/goleadores_{{ temporada }}.html">Goleadores</a>
 
+# PRÓX.PARTIDOS
+
+<div style="text-align: center;" data-proofer-ignore>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada1.png" alt="proxjornada1" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada2.png" alt="proxjornada2" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada3.png" alt="proxjornada3" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada4.png" alt="proxjornada4" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada5.png" alt="proxjornada5" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada6.png" alt="proxjornada6" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada7.png" alt="proxjornada7" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada8.png" alt="proxjornada8" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada9.png" alt="proxjornada9" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada10.png" alt="proxjornada10" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada11.png" alt="proxjornada11" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada12.png" alt="proxjornada12" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada13.png" alt="proxjornada13" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada14.png" alt="proxjornada14" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada15.png" alt="proxjornada15" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada16.png" alt="proxjornada16" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada17.png" alt="proxjornada17" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada18.png" alt="proxjornada18" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada19.png" alt="proxjornada19" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada20.png" alt="proxjornada20" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada21.png" alt="proxjornada21" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada22.png" alt="proxjornada22" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada23.png" alt="proxjornada23" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada24.png" alt="proxjornada24" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada25.png" alt="proxjornada25" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/proxjornada26.png" alt="proxjornada26" onerror="this.style.display='none'"/>
+</div>
 
 # RESULTADOS
 
