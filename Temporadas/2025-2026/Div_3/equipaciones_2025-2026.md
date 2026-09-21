@@ -1,6 +1,6 @@
 ---
 layout: default
-active_season: "25-26_div3"
+active_season: "25-26_Div3"
 ---
 
 <!-- Extraemos automáticamente las constantes de seasons.yml según el active_season -->
