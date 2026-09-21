@@ -1,7 +1,17 @@
 ---
 layout: default
-active_season: "26-27_copa_1"
+active_season: "26-27_Copa_1"
 ---
+
+<!-- Extraemos automáticamente las constantes de seasons.yml según el active_season -->
+{% for s in site.data.seasons %}
+  {% if s.id == page.active_season %}
+    {% assign temporada = s.temporada %}
+    {% assign division = s.division %}
+    {% assign temp_corto = s.temp_corto %}
+    {% assign div_texto = s.div_texto%}
+  {% endif %}
+{% endfor %}
 
 <table style=" border: inset 0pt">
   <tr style="text-align: left; border: inset 0pt">
@@ -21,17 +31,18 @@ active_season: "26-27_copa_1"
 <!--# PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/2025-2026/Copa/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
-  <img src="../../../images/2025-2026/Copa/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
 </div>-->
 
 
 # RESULTADOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/2025-2026/Copa/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
-  <img src="../../../images/2025-2026/Copa/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
-  <img src="../../../images/2025-2026/Copa/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'"/>
-  <img src="../../../images/2025-2026/Copa/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'"/>
-  <img src="../../../images/2025-2026/Copa/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'"/>
 </div>
+
