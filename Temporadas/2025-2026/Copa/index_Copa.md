@@ -1,6 +1,6 @@
 ---
 layout: default
-active_season: "25-26_Copa"
+active_season: "25-26_copa"
 ---
 
 <!-- Extraemos automáticamente las constantes de seasons.yml según el active_season -->
