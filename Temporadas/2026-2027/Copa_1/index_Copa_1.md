@@ -31,8 +31,8 @@ active_season: "26-27_Copa_1"
 <!--# PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
 </div>-->
 
 
