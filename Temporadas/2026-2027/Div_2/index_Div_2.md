@@ -49,7 +49,7 @@ active_season: "26-27_Div2"
 # CLASIFICACIÓN
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/{{ temporada }}/{{ division }}/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/clasificacion.png" alt="clasificacion" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
 </div>
 <a href="../../../Temporadas/{{ temporada }}/{{ division }}/goleadores_{{ temporada }}.html">Goleadores</a>
 
