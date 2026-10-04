@@ -15,6 +15,7 @@ active_season: "26-27_Div2"
 
 <table style=" border: inset 0pt">
   <tr style="text-align: left; border: inset 0pt">
+  <!-- Columna 1: Desplegable de temporadas y divisiones -->
     <td style="text-align: left; border: inset 0pt">
       <select onchange="window.location.href=this.value">
         {% for option in site.data.seasons %}
@@ -23,6 +24,10 @@ active_season: "26-27_Div2"
           </option>
         {% endfor %}
       </select>
+    </td>
+   <!-- Columna 2: Tu enlace de equipaciones -->
+    <td style="text-align: left; border: none; padding-left: 10px;">
+      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones {{ div_texto }} Futbol 7 {{ temp_corto }}</a>
     </td>
     <!-- Columna 3: Icono de PDF alineado a la derecha -->
     <td style="text-align: right; border: none;">
