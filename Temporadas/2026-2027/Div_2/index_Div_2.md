@@ -27,7 +27,7 @@ active_season: "26-27_Div2"
     </td>
 <!-- Columna 2: Tu enlace de equipaciones -->
     <td style="text-align: left; border: none; padding-left: 10px;">
-      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones {{ div_texto }} Futbol 7 {{ temp_corto }}</a>
+      <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equip. {{ div_texto }} Futbol 7 {{ temp_corto }}</a>
     </td>
 <!-- Columna 3: Icono de PDF alineado a la derecha -->
     <td style="text-align: right; border: none;">
