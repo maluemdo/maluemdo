@@ -31,17 +31,17 @@ active_season: "26-27_Copa_2"
 <!--# PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
 </div>-->
 
 
 # RESULTADOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro5.png" alt="cuadro5" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
 </div>
