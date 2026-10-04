@@ -13,10 +13,10 @@ active_season: "26-27_Div2"
   {% endif %}
 {% endfor %}
 
-<table style=" border: inset 0pt">
-  <tr style="text-align: left; border: inset 0pt">
-  <!-- Columna 1: Desplegable de temporadas y divisiones -->
-    <td style="text-align: left; border: inset 0pt">
+<table style="border: none; border-collapse: collapse;">
+  <tr style="vertical-align: middle;">
+<!-- Columna 1: Desplegable de temporadas y divisiones  -->
+    <td style="text-align: left; border: none; padding: 0;">
       <select onchange="window.location.href=this.value">
         {% for option in site.data.seasons %}
           <option value="{{ option.url | relative_url }}" {% if page.active_season == option.id %}selected{% endif %}>
@@ -25,15 +25,15 @@ active_season: "26-27_Div2"
         {% endfor %}
       </select>
     </td>
-   <!-- Columna 2: Tu enlace de equipaciones -->
+<!-- Columna 2: Tu enlace de equipaciones -->
     <td style="text-align: left; border: none; padding-left: 10px;">
       <a href="../../../Temporadas/{{ temporada }}/{{ division }}/equipaciones_{{ temporada }}.html">Equipaciones {{ div_texto }} Futbol 7 {{ temp_corto }}</a>
     </td>
-    <!-- Columna 3: Icono de PDF alineado a la derecha -->
+<!-- Columna 3: Icono de PDF alineado a la derecha -->
     <td style="text-align: right; border: none;">
       <a href="{{ '/docs/PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf' | relative_url }}" download="PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf" 
           title="Protocolo de Lesiones" style="display: inline-block; vertical-align: middle;">
-    <!-- Gráfico SVG del icono de PDF -->
+        <!-- Gráfico SVG del icono de PDF -->
         <svg xmlns="http://w3.org" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e01b24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
           <polyline points="14 2 14 8 20 8"></polyline>
