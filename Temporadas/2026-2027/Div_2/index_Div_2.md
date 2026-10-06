@@ -48,20 +48,17 @@ active_season: "26-27_Div2"
 
 # CLASIFICACIÓN
 <!-- CLASIFICACION: Todo esto es para que se vea bien la imagen -->
-<div style="text-align: center; width: 100%; max-width: 100%; overflow-x: auto; margin: 20px auto;">
+<div style="text-align: center; width: 100%; margin: 20px 0;">
   <img src="{{ site.baseurl }}/images/{{ temporada }}/{{ division }}/clasificacion.png" 
        alt="clasificacion" 
        onerror="this.style.display='none'" 
-       style="display: inline-block; 
-              width: auto; 
-              max-width: 100%; 
-              height: auto; 
-              image-rendering: -webkit-optimize-contrast; 
-              image-rendering: -moz-crisp-edges; 
-              image-rendering: crisp-edges; 
-              image-rendering: pixelated; 
-              filter: none !important; 
-              transform: none !important;" />
+       style="display: inline-block !important; 
+              width: auto !important; 
+              height: auto !important; 
+              max-width: 100% !important; 
+              min-width: 0 !important;
+              image-rendering: pixelated !important;
+              image-rendering: crisp-edges !important;" />
 </div>
 <!-- GOLEADORES -->
 <a href="../../../Temporadas/{{ temporada }}/{{ division }}/goleadores_{{ temporada }}.html">Goleadores</a>
