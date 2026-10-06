@@ -48,29 +48,26 @@ active_season: "26-27_Div2"
 
 # CLASIFICACIÓN
 <!-- CLASIFICACION: Todo esto es para que se vea bien la imagen -->
-<div class="fix-clasificacion" style="text-align: center !important; width: 100% !important; display: block !important; clear: both !important; margin: 20px 0 !important; padding: 0 !important;">
+<div class="main-content" style="padding: 0 !important; margin: 20px auto !important; width: 100% !important; max-width: 100% !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; text-align: center !important;">
   <img src="{{ site.baseurl }}/images/{{ temporada }}/{{ division }}/clasificacion.png" 
        alt="clasificacion" 
        onerror="this.style.display='none'" 
        style="display: inline-block !important; 
-              vertical-align: middle !important;
               width: auto !important; 
               height: auto !important; 
               max-width: 100% !important; 
               min-width: 0 !important;
               max-height: none !important;
-              min-height: 0 !important;
-              filter: none !important; 
-              backdrop-filter: none !important;
-              transform: none !important; 
-              transition: none !important;
-              box-shadow: none !important;
+              background: transparent !important;
               border: none !important;
+              box-shadow: none !important;
+              border-radius: 0 !important;
               padding: 0 !important;
               margin: 0 auto !important;
-              image-rendering: auto !important;
-              opacity: 1 !important;
-              visibility: visible !important;" />
+              transform: none !important;
+              filter: none !important;
+              image-rendering: -webkit-optimize-contrast !important;
+              image-rendering: crisp-edges !important;" />
 </div>
 <!-- GOLEADORES -->
 <a href="../../../Temporadas/{{ temporada }}/{{ division }}/goleadores_{{ temporada }}.html">Goleadores</a>
