@@ -103,7 +103,7 @@ active_season: "26-27_Div2"
   <img src="../../../images/{{ temporada }}/{{ division }}/jornada1.png" alt="jornada1" onerror="this.style.display='none'"/>
 </div>
 
-<table style="border: none; border-collapse: collapse;">
+<table style="border: none; border-collapse: collapse; margin-top: 2em;">
   <tr style="vertical-align: middle;">
 <!--Icono de PDF alineado a la derecha -->
     <td style="text-align: left; border: none;">
