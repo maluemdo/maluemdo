@@ -41,6 +41,25 @@ active_season: "26-27_Div2"
 <!-- GOLEADORES -->
 <a href="../../../Temporadas/{{ temporada }}/{{ division }}/goleadores_{{ temporada }}.html">Goleadores</a>
 
+<table style="border: none; border-collapse: collapse; margin-top: 2em;">
+  <tr style="vertical-align: middle;">
+<!--Icono de PDF alineado a la derecha -->
+    <td style="text-align: right; border: none;">
+      <a href="{{ '/docs/PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf' | relative_url }}" download="PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf" 
+          title="Protocolo de Lesiones" style="display: inline-block; vertical-align: middle;">
+          <span style="vertical-align: middle; margin-right: 8px; color: #e01b24;">Protocolo Actuación Lesiones</span>
+        <!-- Gráfico SVG del icono de PDF -->
+        <svg xmlns="http://w3.org" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e01b24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <path d="M12 18v-6"></path>
+          <path d="m9 15 3 3 3-3"></path>
+        </svg>
+      </a>
+    </td>
+  </tr>
+</table>
+
 # PRÓX.PARTIDOS
 
 <div style="text-align: center;" data-proofer-ignore>
@@ -102,22 +121,3 @@ active_season: "26-27_Div2"
   <img src="../../../images/{{ temporada }}/{{ division }}/jornada2.png" alt="jornada2" onerror="this.style.display='none'"/>
   <img src="../../../images/{{ temporada }}/{{ division }}/jornada1.png" alt="jornada1" onerror="this.style.display='none'"/>
 </div>
-
-<table style="border: none; border-collapse: collapse; margin-top: 2em;">
-  <tr style="vertical-align: middle;">
-<!--Icono de PDF alineado a la derecha -->
-    <td style="text-align: left; border: none;">
-      <a href="{{ '/docs/PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf' | relative_url }}" download="PROTOCOLO DE ACTUACIÓN DE ACCIDENTES 2026-27.pdf" 
-          title="Protocolo de Lesiones" style="display: inline-block; vertical-align: middle;">
-          <span style="vertical-align: middle; margin-left: 8px; color: #e01b24;">Protocolo Actuación Lesiones</span>
-        <!-- Gráfico SVG del icono de PDF -->
-        <svg xmlns="http://w3.org" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e01b24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
-          <polyline points="14 2 14 8 20 8"></polyline>
-          <path d="M12 18v-6"></path>
-          <path d="m9 15 3 3 3-3"></path>
-        </svg>
-      </a>
-    </td>
-  </tr>
-</table>
