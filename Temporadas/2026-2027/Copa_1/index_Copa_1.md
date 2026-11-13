@@ -42,9 +42,10 @@ active_season: "26-27_Copa_1"
 # RESULTADOS
 
 <div style="text-align: center;" data-proofer-ignore>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro4.png" alt="cuadro4" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro3.png" alt="cuadro3" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro2.png" alt="cuadro2" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
-  <img src="../../../images/{{ temporada }}/{{ division }}/cuadro1.png" alt="cuadro1" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/resultados1.png" alt="resultados1" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/resultados2.png" alt="resultados2" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/resultados3.png" alt="resultados3" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/resultados4.png" alt="resultados4" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
+  <img src="../../../images/{{ temporada }}/{{ division }}/resultados5.png" alt="resultados5" onerror="this.style.display='none'" style="display: block; margin: 20px auto; max-width: 100%; height: auto;"/>
 </div>
 
